@@ -16,11 +16,11 @@ Title: Data Mining: Concepts and Techniques, Third Edition
 Authors: Jiawei Han, Micheline Kamber, Jian Pei
 Publisher: Morgan Kaufmann; 3rd edition (July 6, 2011)
 ISBN-10: 0123814790
-#Free textbook online:
+###Free textbook online:
 Title:  Data Mining for the Masses
 Author:  Matthew North
 ISBN-13:  078-06156842376
-#Additional text:
+###Additional text:
 Title:  The Data Warehouse Toolkit, third edition
 Authors:  Ralph Kimball and Margy Ross
 Publisher: Wiley
