@@ -1,7 +1,7 @@
 COMP 300: Data Warehouse & Mining
 ==============================
 ###Computer Science Department
-###Loyola University 
+###Loyola University - Spring 2015
 
 ## Instructor
 Dr. Channah F. Naiman
