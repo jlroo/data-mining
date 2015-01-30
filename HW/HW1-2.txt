@@ -1,0 +1,388 @@
+
+HOMEWORK INDEX
+----|----
+| Chapter 1:  	1, 2, 3, 4, 5, 6 |
+| Chapter 2:	2, 3, 4, 6	|
+| Chapter 3:	1, 2, 3, 4, 7, 11|
+| Chapter 4:	1, 2, 3, 4, 5, 16 |
+| Chapter 5:	1, 2, 4, 6, |
+| Chapter 6:	6.6, 6.14c |
+| Chapter 7:	6 |
+| Chapter 8:	7, 12 |
+| Chapter 9:	1, 3, 4, 6 |
+| Chapter 10:	1, 2, 6, 10, 16 |
+
+
+## Chapter 1
+
+### Exercise 1.1
+
+> What is data mining? In your answer, address the following:
+> (a) Is it another hype?
+> (b) Is it a simple transformation or application of technology developed from databases, statistics, machine learning, and pattern recognition?
+> (c) We have presented a view that data mining is the result of the evolution of database technology. 
+		Do you think that data mining is also the result of the evolution of
+		machine learning research? Can you present such views based on the historical
+		progress of this discipline? Address the same for the fields of statistics and pattern recognition.
+> (d) Describe the steps involved in data mining when viewed as a process of knowledge discovery.
+
+
+knowledge mining from data
+
+evertheless, mining is a vivid term characterizing
+the process that finds a small set of precious nuggets from a great deal of raw material
+
+became a popular choice. In addition, many other terms have a similar meaning to data mining 
+for example, knowledge mining from data, knowledge extraction, data/pattern analysis, data
+archaeology, and data dredging.
+Many people treat data mining as a synonym for another popularly used term,
+knowledge discovery from data, or KDD, while others view data mining as merely an
+essential step in the process of knowledge discovery.
+	 
+Which Technologies Are Used?
+As a highly application-driven domain, data mining has incorporated many techniques
+from other domains such as statistics, machine learning, pattern recognition, database
+and data warehouse systems, information retrieval, visualization, algorithms, highperformance
+computing, and many application domains (Figure 1.11). The interdisciplinary
+nature of data mining research and development contributes significantly to the
+success of data mining and its extensive applications. In this section, we give examples
+of several disciplines that strongly influence the development of data mining methods.
+	 
+|Forms of data preprocessing to prepared for mining|
+----|----
+1. Data cleaning (to remove noise and inconsistent data)|
+2. Data integration (where multiple data sources may be combined)|
+3. Data selection (where data relevant to the analysis task are retrieved from the database)|
+4. Data transformation (where data are transformed and consolidated into forms appropriate for mining by performing summary or aggregation operations)|
+5. Data mining (an essential process where intelligent methods are applied to extract data patterns)|
+6. Pattern evaluation (to identify the truly interesting patterns representing knowledge based on interestingness measures—see Section 1.4.6)|
+7. Knowledge presentation (where visualization and knowledge representation techniques are used to present mined knowledge to users)|
+
+
+### Exercise 1.2
+
+> How is a data warehouse different from a database? How are they similar?
+
+|Differences|
+----|----
+|Data warehouse |Database|
+|||
+
+
+
+|Similarities|
+----|----
+|Data warehouse |Database|
+|||
+
+
+
+### Exercise 1.3
+
+> Define each of the following data mining functionalities: characterization, discrimination,
+	association and correlation analysis, classification, regression, clustering, and outlier analysis. 
+	Give examples of each data mining functionality, using a real-life database that you are familiar with.
+
+**Characterization
+*
+
+**Discrimination**
+*
+
+**Association Analysis**
+*
+
+**Correlation analysis**
+*
+
+**Classification**
+*
+
+**Regression**
+*
+
+**Clustering**
+*
+
+**Outlier analysis**
+*
+ 
+
+### Exercise 1.4
+
+> Present an example where data mining is crucial to the success of a business. What data
+	mining functionalities does this business need (e.g., think of the kinds of patterns that
+	could be mined)? Can such patterns be generated alternatively by data query processing
+	or simple statistical analysis?
+	
+	 **Data mining: ** often gives businesses enormous amounts of information about their customers' behaviors and buying habits, enabling them to more effectively market their goods.
+	
+	**Traditional market researchers: ** identify an opportunity, collect the needed information, then formulate an appropriate sales strategy. Data mining relies on information that is already available.
+	
+
+### Exercise 1.5
+
+> Explain the difference and similarity between discrimination and classification, between
+	characterization and clustering, and between classification and regression.
+
+|Differences|
+----|----
+| Discrimination | Classification |
+| | |
+|Characterization|Clustering|
+| | |
+|Classification | Regression|
+|| |
+
+
+|similarities|
+----|----
+| Discrimination | Classification |
+| | |
+|Characterization|Clustering|
+| | |
+|Classification | Regression|
+|| |
+
+
+
+### Exercise 1.6
+
+> Based on your observations, describe another possible kind of knowledge that needs to
+	be discovered by data mining methods but has not been listed in this chapter. Does it
+	require a mining methodology that is quite different from those outlined in this chapter?
+	
+Personally I believe that IoT (Internet of things) requires a new type of data mining approach as IoT have multiple inputs and outputs from many devices 
+that are integrated around a particular application, subject or user. Creating a all new world where data of with different schemas, categories, values and measures 
+have to merge in order to gain insides of these interactions between multiple things.
+
+IoT (Internet of things) is the interconnection of uniquely identifiable embedded computing devices within the existing Internet infrastructure.
+(Sources: http://www.cisco.com/web/solutions/trends/iot/overview.html)
+
+## Chapter 2
+
+### Exercise 2.2
+
+Suppose that the data for analysis includes the attribute age. The age values for the data
+tuples are (in increasing order) 
+
+19, 20, 20, 23, 25, 25, 29, 29, 29, 29, 33, 35, 35, 38, 38, 38, 40, 42, 46, 48, 53, 75, 79, 80
+
+(a) What is the mean of the data?What is the median?
+(b) What is the mode of the data? Comment on the data’s modality (i.e., bimodal,trimodal, etc.).
+(c) What is the midrange of the data?
+(d) Can you find (roughly) the first quartile (Q1) and the third quartile (Q3) of the data?
+(e) Give the five-number summary of the data.
+(f) Show a boxplot of the data.
+(g) How is a quantile–quantile plot different from a quantile plot?
+
+**R CODE**
+	
+	> DATA2.2 <- c(19, 20, 20, 23, 25, 25, 29, 29, 29, 29, 33, 35, 35, 38, 38, 38, 40, 42, 46, 48, 53, 75, 79, 80)
+	> stat.desc(DATA2.2)
+
+**Decriptive Statistics**
+
+nbr.val | nbr.null | nbr.na | min | max | range | sum |
+----|----|----|----|----|----|----|
+24.0000000 | 0.0000000 | 0.0000000 | 19.0000000 | 80.0000000 | 61.0000000 | 928.0000000 |
+median | mean | SE.mean CI.mean.0.95 | var | std.dev | coef.var |
+----|----|----|----|----|----|----|
+35.0000000 | 38.6666667 | 3.5993491 | 7.4458209 | 310.9275362 | 17.6331374 | 0.4560294 |
+
+
+### Exercise 2.3
+
+2.3 Suppose that the values for a given set of data are grouped into intervals. The intervals
+and corresponding frequencies are as follows:
+
+Time (in minutes) | Freq. |	Rel.  Freq.	Cum Freq.|
+0 but less than 5 |	74 |	0.37 |	0.37|
+5 but less than 10 |	44 |	0.22 |	0.59 |
+10 but less than 15 |	30 |	0.15 |	0.74 |
+15 but less than 20 |	20 |	0.1 |	0.84 |
+20 but less than 25	| 14 |	0.07 |	0.91 |
+25 but less than 30 |	14 | 0.07 |	0.98 |
+30 or more |	4 | 	0.02 |	1 |
+TOTAL	200		| | | |
+ 	
+a.	What is the width of each class?		
+b.	How many sessions in the sample?		
+c.	What is the relative frequency of sessions 15 but less than 20?		
+d.	What is the cumulative frequency of sessions 15 but less than 20?		
+e.	In what class does the median occur?		
+f.	Compute an approximate median.		
+
+**R CODE**
+
+		> DATA2.3<-c(74,44,30,20,14,14,4)
+		> summary(DATA2.3)
+		Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+		4.00   14.00   20.00   28.57   37.00   74.00
+	   
+
+ANSWERS|
+---|---
+a.	L_1	5|
+b.	n	200|
+c.	Σfreq_l	|
+d.	freq_median	20|
+e.	width	35|
+f.	median:	28.57|
+
+
+### Exercise 2.4
+
+|AGE | % FAT |
+---|---
+23 |	9.5|
+23 |	26.5|
+27 |	7.8|
+27 |	17.8|
+39 |	31.4|
+41 |	25.9|
+47 |	27.4|
+49 |	27.2|
+50 |	31.2|
+
+52 |	34.6|
+54 |	42.5|
+54 |	28.8|
+56 |	33.4|
+57 |	30.2|
+58 |	34.1|
+58 |	32.9|
+60 |	41.2|
+61 |	35.7|
+
+
+|AGE | % FAT | AGE | % FAT |
+---|---|---|---|
+23 |	9.5| 52 |	34.6|
+23 |	26.5|54 |	42.5|
+27 |	7.8|54 |	28.8|
+27 |	17.8|56 |	33.4|
+39 |	31.4|57 |	30.2|
+41 |	25.9|58 |	34.1|
+47 |	27.4|58 |	32.9|
+49 |	27.2|60 |	41.2|
+50 |	31.2|61 |	35.7|
+
+
+**R CODE**
+	
+	> AGE <-c(23,23,27,27,39,41,47,49,50,52,
+		+ 54,54,56,57,58,58,60,61)
+		
+	> FAT_PER<-c(9.5,26.5,7.8,17.8,31.4,25.9,27.4,27.2,
+		+ 31.2,34.6,42.5,28.8,33.4,30.2,34.1,32.9,41.2,35.7)
+		
+	> plot(AGE, FAT_PER, main="SCATTER PLOT AGE VS FAT%", xlab="AGE", ylab="FAT PERCENTAGE")
+	> abline(lm(FAT_PER~AGE), col="red") # regression line (FAT_PER~AGE)
+	> lines(lowess(FAT_PER~AGE), col="blue") # lowess line (AGE,FAT_PER)
+	> plot(SORT_AGE, SORT_FAT, main="QQ PLOT AGE VS FAT%", xlab="AGE", ylab="FAT PERCENTAGE")
+	> abline(lm(SORT_FAT~SORT_AGE), col="red") # regression line (SORT_FAT_PER~SORT_AGE)
+	> lines(lowess(SORT_FAT~SORT_AGE), col="blue") # lowess line (SORT_AGE,SORT_FAT_PER)
+	> dist(rbind(x, y), method = "euclidean")
+
+**RESULTS**
+
+![SCATTER_PLOT](https://lh5.googleusercontent.com/O_Ap7sGRNBWarWZ3OkN5Qa0XTrEaCd0bVZBd4sQOhHYJmZrshxPJBLEDmqDc6Yg1TCYtXoCSIEQ=w1255-h574)
+![QQ_PLOT](https://lh3.googleusercontent.com/AL3tgP9NWSQ5Y34Ivbhl7JiEyPK1rcH9XutHxOHoPDRUW6D27wgFbM62SYu8P3wNGtyWDMwtTR0=w1255-h574)
+
+### Exercise 2.6				
+
+Given two objects represented by the tuples (22, 1, 42, 10) and (20, 0, 36, 8):
+(a) Compute the Euclidean distance between the two objects.
+(b) Compute the Manhattan distance between the two objects.
+(c) Compute the Minkowski distance between the two objects, using q D 3.
+(d) Compute the supremum distance between the two objects.
+
+**R CODE**
+
+	> i <- c(5, 1,22, 7)
+	> j <- c(10, 0, 20, 4)
+	> dist(rbind(i, j), method = "euclidean")
+	
+	         i
+	j 6.244998
+	
+	> dist(rbind(i, j), method = "manhattan")
+	
+	   i
+	j 11
+	
+	> dist(rbind(i, j), method = "minkowski")
+	
+	         i
+	j 6.244998
+	
+	> dist(rbind(i, j), method = "maximum")
+	
+	  i
+	j 5
+
+**RESULTS**
+
+![Distance Tables](https://lh6.googleusercontent.com/9zLQPESiMAtfc4wwCWMirsNsh2rreFrpNpVrm7KBgWKuJ5cZ81jYrUOz_uygtES87oTvviefQCU=w1255-h574)
+
+
+
+## Chapter 3:	[1](), [2](), [3](), [4](), [7](), [11]()
+
+### Exercise 3.1
+### Exercise 3.2
+
+**Describe the methodcs and how they were or could have been implemented in the IRIS dataset.**
+
+### Exercise 3.3
+### Exercise 3.4
+### Exercise 3.7
+### Exercise 3.11
+
+## Chapter 4:	[1](), [2](), [3](), [4](), [5](), [16]()
+
+### Exercise 4.1
+### Exercise 4.2
+### Exercise 4.3
+### Exercise 4.4
+### Exercise 4.5
+### Exercise 4.6
+
+## Chapter 5:	[1](), [2](), [4](), [6]() 
+
+### Exercise 5.1
+### Exercise 5.2
+### Exercise 5.4
+### Exercise 5.6
+
+## Chapter 6:	[6.6](), [6.14c]()
+
+### Exercise 6.6
+### Exercise 6.14c
+
+## Chapter 7:	[6]()
+
+### Exercise 7.6
+
+## Chapter 8:	[7](), [12]()
+
+### Exercise 8.7
+### Exercise 8.12
+
+## Chapter 9:	[1](), [3](), [4](), [6]()
+
+### Exercise 9.1
+### Exercise 9.3
+### Exercise 9.4
+### Exercise 9.6
+
+## Chapter 10:	[1](), [2](), [6](), [10](), [16]()
+
+### Exercise 10.1
+### Exercise 10.2
+### Exercise 10.6
+### Exercise 10.10
+### Exercise 10.16
+
+
