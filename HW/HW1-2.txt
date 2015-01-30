@@ -336,6 +336,24 @@ Given two objects represented by the tuples (22, 1, 42, 10) and (20, 0, 36, 8):
 **Describe the methodcs and how they were or could have been implemented in the IRIS dataset.**
 
 ### Exercise 3.3
+**Use the following data:**
+
+**15,19,20,20,23,25,25,29,29,29,29,33,35,35,38,38,38,40,42,46,48,53,75,79**
+
+**Using only the first 24 data entries, Smoothing by bin means, bin-depth of 3**
+
+Sum of Bin | Mean | New Bin |
+---|---|---|
+Bin 1: | m | new bin |			
+Bin 2: | m | |	
+Bin 3: | m | |			
+Bin 4: | m | new |			
+Bin 5: | m | new |			
+Bin 6: | m | new |		
+Bin 7: | m | new |		
+Bin 8: | m | new |		
+			
+
 ### Exercise 3.4
 ### Exercise 3.7
 ### Exercise 3.11
