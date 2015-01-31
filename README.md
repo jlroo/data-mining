@@ -1,13 +1,11 @@
 
-![COMP 300](https://github.com/jlroo/Data_Warehouse_Mining#comp-300-data-warehouse--mining)  | [PROJECT](https://github.com/jlroo/Data_Warehouse_Mining/wiki/PROJECT) | ![DOCUMENTATION](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DOCUMENTATION) | [ALGORITHMS](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DATA-MINING-ALGORITHMS) |
+#COMP 300: Data Warehouse & Mining
+
+![COMP 300](https://github.com/jlroo/Data_Warehouse_Mining#comp-300-data-warehouse--mining)  |[PROJECT](https://github.com/jlroo/Data_Warehouse_Mining/wiki/PROJECT) |![DOCUMENTATION](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DOCUMENTATION) |[ALGORITHMS](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DATA-MINING-ALGORITHMS) |
 ---|---|---|---|	
 ![HOME](https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/HOME_IMG.png)  | ![PROJECT](https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/PROJECT_IMG.png) | ![DOC](https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/DOCUMENTATION_IMG.png) | ![ALGO](https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/ALGO_IMG.png) |
 Introduction and syllabus | Data Mining Project | Notes and Homework  | Detailed technical documentation|
 
-
-
-
-COMP 300: Data Warehouse & Mining
 ==============================
 ###Computer Science Department
 ###Loyola University - Spring 2015
