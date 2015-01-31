@@ -5,7 +5,7 @@
 
 #COMP 300: Data Warehouse & Mining
 
-[COMP 300](Data_Warehouse_Mining#course-objectives)|[PROJECT](https://github.com/jlroo/Data_Warehouse_Mining/wiki/PROJECT)|[DOCUMENTATION](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DOCUMENTATION)|[ALGORITHMS](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DATA-MINING-ALGORITHMS)|
+[COMP 300](https://github.com/jlroo/Data_Warehouse_Mining#course-objectives)|[PROJECT](https://github.com/jlroo/Data_Warehouse_Mining/wiki/PROJECT)|[DOCUMENTATION](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DOCUMENTATION)|[ALGORITHMS](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DATA-MINING-ALGORITHMS)|
 ---|---|---|---|	
 [![img1]](#course-objectives)| [![img2]](https://github.com/jlroo/Data_Warehouse_Mining/wiki/PROJECT)| [![img3]](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DOCUMENTATION) | [![img4]](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DATA-MINING-ALGORITHMS) |
 Information | Project | Homework  | Technical Docs|
