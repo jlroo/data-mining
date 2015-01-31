@@ -10,6 +10,13 @@
 ![][img1]| ![][img2]| ![][img3] | ![][img4] |
 Information | Project | Homework  | Technical Docs|
 
+
+<img src="https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/HOME_IMG.png">
+<img src="https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/PROJECT_IMG.png">
+<img src="https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/DOCUMENTATION_IMG.png">
+<img src="https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/ALGO_IMG.png" >
+
+
 ==============================
 ###Computer Science Department
 ###Loyola University - Spring 2015
