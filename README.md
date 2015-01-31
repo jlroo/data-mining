@@ -7,5 +7,5 @@
 
 [COMP 300](https://github.com/jlroo/Data_Warehouse_Mining/wiki/SYLLABUS#data-warehouse-and-mining)|[PROJECT](https://github.com/jlroo/Data_Warehouse_Mining/wiki/PROJECT)|[WIKI](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DOCUMENTATION)|[ALGORITHMS](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DATA-MINING-ALGORITHMS)|
 ---|---|---|---|	
-[![img1]](#course-objectives)| [![img2]](https://github.com/jlroo/Data_Warehouse_Mining/wiki/PROJECT)| [![img3]](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DOCUMENTATION) | [![img4]](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DATA-MINING-ALGORITHMS) |
+[![img1]](https://github.com/jlroo/Data_Warehouse_Mining/wiki/SYLLABUS#data-warehouse-and-mining)| [![img2]](https://github.com/jlroo/Data_Warehouse_Mining/wiki/PROJECT)| [![img3]](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DOCUMENTATION) | [![img4]](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DATA-MINING-ALGORITHMS) |
 Syllabus | Project | Documentation | Technical Docs|
