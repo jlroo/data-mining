@@ -1,9 +1,13 @@
+[img1]:https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/HOME_IMG.png
+[img2]:https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/PROJECT_IMG.png
+[img3]:https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/DOCUMENTATION_IMG.png
+[img4]:https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/ALGO_IMG.png
 
 #COMP 300: Data Warehouse & Mining
 
 [COMP 300](https://github.com/jlroo/Data_Warehouse_Mining#comp-300-data-warehouse--mining)|[PROJECT](https://github.com/jlroo/Data_Warehouse_Mining/wiki/PROJECT)|[DOCUMENTATION](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DOCUMENTATION)|[ALGORITHMS](https://github.com/jlroo/Data_Warehouse_Mining/wiki/DATA-MINING-ALGORITHMS)|
 ---|---|---|---|	
-![](https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/HOME_IMG.png)  | ![](https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/PROJECT_IMG.png) | ![](https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/DOCUMENTATION_IMG.png) | ![](https://raw.githubusercontent.com/jlroo/Data_Warehouse_Mining/master/RESOURCES/IMG/ALGO_IMG.png) |
+![][img1]| ![][img2]| ![][img3] | ![][img4] |
 Information | Project | Homework  | Technical Docs|
 
 ==============================
