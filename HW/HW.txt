@@ -12,7 +12,6 @@ HOMEWORK INDEX
 | Chapter 9:	1, 3, 4, 6 |
 | Chapter 10:	1, 2, 6, 10, 16 |
 
-
 ## Chapter 1
 
 ### Exercise 1.1
@@ -328,9 +327,26 @@ Given two objects represented by the tuples (22, 1, 42, 10) and (20, 0, 36, 8):
 
 
 
-## Chapter 3:	[1](), [2](), [3](), [4](), [7](), [11]()
+## Chapter 3
+### Data Preprocessing 
 
 ### Exercise 3.1
+
+**Data quality can be assessed in terms of several issues, including accuracy, completeness,
+and consistency. For each of the above three issues, discuss how data quality assessment
+can depend on the intended use of the data, giving examples. Propose two other
+dimensions of data quality.**
+
+**accuracy**
+
+**completeness**
+
+**consistency**
+
+**portability**
+
+**size**
+
 ### Exercise 3.2
 
 **Describe the methodcs and how they were or could have been implemented in the IRIS dataset.**
@@ -340,22 +356,91 @@ Given two objects represented by the tuples (22, 1, 42, 10) and (20, 0, 36, 8):
 
 **15,19,20,20,23,25,25,29,29,29,29,33,35,35,38,38,38,40,42,46,48,53,75,79**
 
-**Using only the first 24 data entries, Smoothing by bin means, bin-depth of 3**
 
-Sum of Bin | Mean | New Bin |
----|---|---|
-Bin 1: | m | new bin |			
-Bin 2: | m | |	
-Bin 3: | m | |			
-Bin 4: | m | new |			
-Bin 5: | m | new |			
-Bin 6: | m | new |		
-Bin 7: | m | new |		
-Bin 8: | m | new |		
-			
+**R CODE**
 
+
+**First 24 Data Entries**
+
+		data3.3<-c(15,19,20,20,23,25,25,29,29,29,29,33,35,35,38,38,38,40,42,46,48,53,75,79)
+
+**Bin depth of 3**
+
+		Bin1<-data3.3[1:3]
+		
+		Bin2<-data3.3[4:6]
+		
+		Bin3<-data3.3[7:9]
+		
+		Bin4<-data3.3[10:12]
+		
+		Bin5<-data3.3[13:15]
+		
+		Bin6<-data3.3[16:18]
+		
+		Bin7<-data3.3[19:21]
+		
+		Bin8<-data3.3[22:24]
+
+** Bin Sum **
+
+		sum(Bin1)
+		
+		sum(Bin2)
+		
+		sum(Bin3)
+		
+		sum(Bin4)
+		
+		sum(Bin5)
+		
+		sum(Bin6)
+		
+		sum(Bin7)
+		
+		sum(Bin8)
+
+**Bin Mean**
+
+		mean(Bin1)
+		
+		mean(Bin2)
+		
+		mean(Bin3)
+		
+		mean(Bin4)
+		
+		mean(Bin5)
+		
+		mean(Bin6)
+		
+		mean(Bin7)
+		
+		mean(Bin8)
+
+No. | Bin | Sum of Bin | Mean | New Bin |
+---|---|---|---|---| 
+ 1 | [15,19,20]| 54 | 18 | [18,18,18] |			
+ 2 | [20,23,25]| 68 | 22.6 | [22.6,22.6,22.6] |	
+ 3 | [25,29,29]| 83 | 27.6 | [27.6,27.6,27.6] |		
+ 4 | [29,29,33]| 91 |  30 | [30,30,30] |		
+ 5 | [35,35,38]| 108 | 36 | [36,36,36] |		
+ 6 | [38,38,40]| 116 | 38.6 | [38.6,38.6,38.6] |		
+ 7 | [42,46,48]| 136 | 45.3 | [45.3,45.3,45.3] |		
+ 8 | [53,75,79]| 207 | 69 | [69,69,69] |	
+		
 ### Exercise 3.4
+
+a.  List some domain-specific (e.g., business, scientific, etc., NOT technical) reasons why heterogeneous data sources may require integration.
+
+b.  List some ways that data can be heterogeneous and require integration.  Give a one-sentence example from any domain. (synonyms, homonyms, formatting issues, levels of granularity, etc.)
+
+c.  What is a schema?  What is the difference between static schema integration and partial dynamic integration?(Give one example of when each would be appropriate.)
+
+
 ### Exercise 3.7
+
+
 ### Exercise 3.11
 
 ## Chapter 4:	[1](), [2](), [3](), [4](), [5](), [16]()
