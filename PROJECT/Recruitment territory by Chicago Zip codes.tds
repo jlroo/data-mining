@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<datasource formatted-name='excel.41381.759912581016' inline='true' source-platform='mac' version='8.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <!-- build 8300.14.1117.2230                                -->
+  <connection auto-extract='yes' class='excel' driver='Ace12' filename='/var/folders/wl/nww3nvbs6tz1pmjpmg840nqr0000gp/T/tableau-temp/1a1h3kn1dv4qdw1bvykb41ndfgcc/C:/Documents and Settings/ALEWIS6/Desktop/Territory Management/Recruitment territory by Chicago Zip codes.xlsx' header='yes' imex='1'>
+    <relation name='Sheet1$' table='[Sheet1$]' type='table' />
+  </connection>
+  <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+    <calculation class='tableau' formula='1' />
+  </column>
+  <column datatype='string' name='[SCH_City]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+  </column>
+  <column datatype='real' default-format='*00000' name='[SCH_Zip]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal'>
+  </column>
+  <extract count='-1' enabled='true' units='records'>
+    <connection class='dataengine' dbname='/Users/jlroo/Documents/ONE_DRIVE/LOYOLA/SPRING_2015/COMP300/PROJECT/Recruitment territory by Chicago Zip codes.tds Files/Data/TableauTemp/#TableauTemp_1wn5njb1gvn4z81esudx11i3jwig.tde' schema='Extract' tablename='Extract' update-time='4/17/2013 11:14:37 PM'>
+      <relation name='Extract' table='[Extract].[Extract]' type='table' />
+      <calculations>
+        <calculation column='[Number of Records]' formula='1' />
+      </calculations>
+      <metadata-records>
+        <metadata-record class='column'>
+          <remote-name>Number of Records</remote-name>
+          <remote-type>16</remote-type>
+          <local-name>[Number of Records]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>Number of Records</remote-alias>
+          <ordinal>0</ordinal>
+          <local-type>integer</local-type>
+          <aggregation>Sum</aggregation>
+          <approx-count>1</approx-count>
+          <contains-null>false</contains-null>
+          <statistics>
+            <statistic aggregation='Min' datatype='integer'>1</statistic>
+            <statistic aggregation='Max' datatype='integer'>1</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+          </attributes>
+        </metadata-record>
+        <metadata-record class='column'>
+          <remote-name>SCH_City</remote-name>
+          <remote-type>129</remote-type>
+          <local-name>[SCH_City]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>SCH_City</remote-alias>
+          <ordinal>1</ordinal>
+          <family>Sheet1$</family>
+          <local-type>string</local-type>
+          <aggregation>Count</aggregation>
+          <approx-count>1</approx-count>
+          <scale>1</scale>
+          <width>1073741823</width>
+          <contains-null>false</contains-null>
+          <collation flag='1' name='LEN_RUS_S2' />
+          <statistics>
+            <statistic aggregation='Min' datatype='string'>&quot;Chicago&quot;</statistic>
+            <statistic aggregation='Max' datatype='string'>&quot;Chicago&quot;</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US_CI&quot;</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+          </attributes>
+        </metadata-record>
+        <metadata-record class='column'>
+          <remote-name>SCH_Zip</remote-name>
+          <remote-type>4</remote-type>
+          <local-name>[SCH_Zip]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>SCH_Zip</remote-alias>
+          <ordinal>2</ordinal>
+          <family>Sheet1$</family>
+          <local-type>real</local-type>
+          <aggregation>Sum</aggregation>
+          <approx-count>57</approx-count>
+          <contains-null>false</contains-null>
+          <statistics>
+            <statistic aggregation='Min' datatype='real'>60601.0</statistic>
+            <statistic aggregation='Max' datatype='real'>60707.0</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>1</attribute>
+            <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+          </attributes>
+        </metadata-record>
+        <metadata-record class='column'>
+          <remote-name>Territory Managers</remote-name>
+          <remote-type>129</remote-type>
+          <local-name>[Territory Managers]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>Territory Managers</remote-alias>
+          <ordinal>3</ordinal>
+          <family>Sheet1$</family>
+          <local-type>string</local-type>
+          <aggregation>Count</aggregation>
+          <approx-count>4</approx-count>
+          <scale>1</scale>
+          <width>1073741823</width>
+          <contains-null>false</contains-null>
+          <collation flag='1' name='LEN_RUS_S2' />
+          <statistics>
+            <statistic aggregation='Min' datatype='string'>&quot;Andre Lewis&quot;</statistic>
+            <statistic aggregation='Max' datatype='string'>&quot;Tonishea Jackson&quot;</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US_CI&quot;</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>0</attribute>
+            <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+          </attributes>
+        </metadata-record>
+      </metadata-records>
+    </connection>
+  </extract>
+  <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+  <semantic-values>
+    <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+  </semantic-values>
+</datasource>
